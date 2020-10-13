@@ -34,6 +34,8 @@
         "drupal/eck": "^1.0@beta",
         "drupal/geolocation": "^3.2",
         "drupal/gin": "^3.0@alpha",
+        "drupal/gin_login": "^1.0@RC",
+        "drupal/gin_toolbar": "^1.0@beta",
         "drupal/gutenberg": "^2.0@beta",
         "drupal/mediteran": "^1.12",
         "drupal/olivero": "^1.0@beta",
