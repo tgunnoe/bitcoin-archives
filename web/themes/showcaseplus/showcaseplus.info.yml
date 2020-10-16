@@ -14,6 +14,7 @@ libraries:
   - showcaseplus/count-to-init
   - showcaseplus/local-stylesheets
   - showcaseplus/smooth-scroll
+  - showcaseplus/background-image-block
 libraries-override:
   classy/base:
     css:

@@ -26,6 +26,7 @@
         "drupal/autocomplete_deluxe": "^2.0@RC",
         "drupal/bg_image_formatter": "^1.14",
         "drupal/bootstrap_barrio": "^5.1",
+        "drupal/conditional_fields": "^1.0@alpha",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-recommended": "^9.0",
         "drupal/ctools": "^3.4",
@@ -36,12 +37,13 @@
         "drupal/gin": "^3.0@alpha",
         "drupal/gin_login": "^1.0@RC",
         "drupal/gin_toolbar": "^1.0@beta",
-        "drupal/gutenberg": "^2.0@beta",
+        "drupal/gutenberg": "2.x-dev",
         "drupal/mediteran": "^1.12",
         "drupal/olivero": "^1.0@beta",
         "drupal/optional_end_date": "^1.1",
         "drupal/page_manager": "^4.0@beta",
         "drupal/panels": "^4.6",
+        "drupal/pathauto": "^1.8",
         "drupal/search_api": "^1.17",
         "drupal/search_api_page": "^1.0@beta",
         "drupal/search_api_solr": "^4.1",
@@ -107,6 +109,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+	    "drupal/gutenberg": {
+                "Drupal Media Library Patch": "https://www.drupal.org/files/issues/2020-10-09/gutenberg-d9_media_library_support-3150127-13_1.patch"
+            }
         }
     }
 }
