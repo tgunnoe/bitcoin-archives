@@ -26,10 +26,11 @@
   transition: all 0.2s ease-in-out;
 }
 .site-name a {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .region--light-typography .site-name a {
   color: #ffffff;
