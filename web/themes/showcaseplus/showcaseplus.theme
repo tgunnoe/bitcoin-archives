@@ -283,9 +283,9 @@ function showcaseplus_preprocess_page(&$variables) {
     $variables['sidebar_first_grid_class'] = 'col-md-4 col-md-pull-8';
     $variables['sidebar_second_grid_class'] = '';
   } elseif (!$sidebar_first && $sidebar_second) {
-    $variables['main_grid_class'] = 'col-md-8 col-lg-7';
+    $variables['main_grid_class'] = 'col-md-8 col-lg-8';
     $variables['sidebar_first_grid_class'] = '';
-    $variables['sidebar_second_grid_class'] = 'col-md-4 col-lg-offset-1';
+    $variables['sidebar_second_grid_class'] = 'col-md-3 col-lg-offset-1';
   } else {
     $variables['main_grid_class'] = 'col-md-12';
     $variables['sidebar_first_grid_class'] = '';
