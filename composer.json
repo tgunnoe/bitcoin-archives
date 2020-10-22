@@ -22,10 +22,12 @@
         "drupal/address": "^1.8",
         "drupal/admin_toolbar": "^2.3",
         "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/advanced_help": "^1.0@beta",
         "drupal/auto_entitylabel": "^3.0@beta",
         "drupal/autocomplete_deluxe": "^2.0@RC",
         "drupal/bg_image_formatter": "^1.14",
         "drupal/bootstrap_barrio": "^5.1",
+        "drupal/chosen": "^3.0",
         "drupal/conditional_fields": "^1.0@alpha",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/core-recommended": "^9.0",
@@ -55,6 +57,7 @@
         "drupal/views_bootstrap": "^4.3",
         "drupal/views_timelinejs": "^3.2",
         "drush/drush": "^10.3",
+        "oomphinc/composer-installers-extender": "1.1.2",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"
     },
@@ -99,12 +102,18 @@
         },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/{$name}": [
+		"type:drupal-library",
+		"harvesthq/chosen"
+	    ],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
         },
+	"installer-types": [
+            "library"
+        ],
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
