@@ -11,7 +11,7 @@
 .region-sidebar-first ul {
     list-style-type: none;
     padding-left: 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .main-content__section {
@@ -19,7 +19,7 @@
 }
 
 .region-content a {
-    text-decoration: underline;
+
 }
 
 a.button {
@@ -41,4 +41,13 @@ a.button {
 
 #block-nedcamp {
     padding-bottom: 1em;
+}
+#block-mtdropdown {
+    text-align: right;
+}
+.background-image-block__section {
+    padding: 30px 0;
+}
+.site-branding__logo > img {
+    max-height: 60px;
 }
