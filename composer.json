@@ -25,8 +25,10 @@
         "drupal/advanced_help": "^1.0@beta",
         "drupal/auto_entitylabel": "^3.0@beta",
         "drupal/autocomplete_deluxe": "^2.0@RC",
+        "drupal/better_exposed_filters": "^5.0@beta",
         "drupal/bg_image_formatter": "^1.14",
         "drupal/bootstrap_barrio": "^5.1",
+        "drupal/bootstrap_layouts": "^5.2",
         "drupal/chosen": "^3.0",
         "drupal/conditional_fields": "^1.0@alpha",
         "drupal/core-composer-scaffold": "^9.0",
@@ -35,6 +37,7 @@
         "drupal/d8w3css": "^1.17",
         "drupal/ds": "^3.9",
         "drupal/eck": "^1.0@beta",
+        "drupal/entity": "^1.1",
         "drupal/geolocation": "^3.2",
         "drupal/gin": "^3.0@alpha",
         "drupal/gin_login": "^1.0@RC",
@@ -104,7 +107,8 @@
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": [
 		"type:drupal-library",
-		"harvesthq/chosen"
+		"harvesthq/chosen",
+		"furf/jquery-ui-touch-punch"
 	    ],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],

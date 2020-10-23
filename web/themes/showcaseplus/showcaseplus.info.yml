@@ -9,6 +9,7 @@ libraries:
   - showcaseplus/bootstrap
   - showcaseplus/fontawesome
   - showcaseplus/global-styling
+  - showcaseplus/isotope-global
   - showcaseplus/messages
   - showcaseplus/tooltip
   - showcaseplus/count-to-init

@@ -51,3 +51,39 @@ a.button {
 .site-branding__logo > img {
     max-height: 60px;
 }
+.node--view-mode-sidebar-teaser h6 {
+    text-align: center;
+    margin-top: -20px;
+}
+.node--type-article.node--view-mode-teaser .field--name-user img {
+    max-width: 40px;
+}
+.node--type-article.node--view-mode-teaser .field--name-body.field--type-text-with-summary,
+.node--type-article.node--view-mode-teaser .field--name-field-entity {
+    margin-top: 20px;
+}
+.node--type-article.node--view-mode-teaser .field--name-field-tags {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.node--type-article.node--view-mode-teaser h2.node__title {
+    margin-bottom: 20px;
+}
+.node--type-article.node--view-mode-teaser .images-container {
+    margin: 20px 0 0 0;
+}
+.node--view-mode-tiny-teaser h6.node__title,
+.node--view-mode-tiny-teaser h6.field--name-field-date {
+    font-size: 16px;
+    margin: 7px 0;
+}
+
+.node--type-article.node--view-mode-teaser .node--view-mode-tiny-teaser .images-container {
+    margin: 0
+}
+.view-sidebar-articles ul.menu li a h6 {
+    color: #ccc;
+    margin: 0;
+    font-size: 14px;
+}
