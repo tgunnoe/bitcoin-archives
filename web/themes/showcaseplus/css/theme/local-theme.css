@@ -82,8 +82,8 @@ a.button {
 .node--type-article.node--view-mode-teaser .node--view-mode-tiny-teaser .images-container {
     margin: 0
 }
-.view-sidebar-articles ul.menu li a h6 {
-    color: #ccc;
+ul.menu li a h6 {
+    color: #999;
     margin: 0;
     font-size: 14px;
 }
