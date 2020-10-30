@@ -87,3 +87,48 @@ ul.menu li a h6 {
     margin: 0;
     font-size: 14px;
 }
+
+#block-generalpagebanner::after,
+.field--name-field-image .media--view-mode-page-banner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+}
+.banner #block-pagetitle,
+.banner h2.title {
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+    .banner .field--name-field-subtitle {
+	display:none;
+    }
+}
+.banner .field--name-field-subtitle {
+    Position: absolute;
+    right: 15%;
+    top: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top:100px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.social-links i::before {
+    margin-right: 10px;
+}

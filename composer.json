@@ -38,6 +38,7 @@
         "drupal/ds": "^3.9",
         "drupal/eck": "^1.0@beta",
         "drupal/entity": "^1.1",
+        "drupal/focal_point": "^1.5",
         "drupal/geolocation": "^3.2",
         "drupal/gin": "^3.0@alpha",
         "drupal/gin_login": "^1.0@RC",
