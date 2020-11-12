@@ -25,6 +25,7 @@
         "drupal/advanced_help": "^1.0@beta",
         "drupal/auto_entitylabel": "^3.0@beta",
         "drupal/autocomplete_deluxe": "^2.0@RC",
+        "drupal/backup_migrate": "5.0.0-rc2",
         "drupal/better_exposed_filters": "^5.0@beta",
         "drupal/bg_image_formatter": "^1.14",
         "drupal/bootstrap_barrio": "^5.1",
@@ -124,9 +125,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-	    "drupal/gutenberg": {
-                "Drupal Media Library Patch": "https://www.drupal.org/files/issues/2020-10-09/gutenberg-d9_media_library_support-3150127-13_1.patch"
-            }
         }
     }
 }
