@@ -16,6 +16,7 @@ libraries:
   - showcaseplus/local-stylesheets
   - showcaseplus/smooth-scroll
   - showcaseplus/background-image-block
+  - showcaseplus/view-articles-grid
 libraries-override:
   classy/base:
     css:

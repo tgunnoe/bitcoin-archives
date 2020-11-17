@@ -46,6 +46,7 @@
         "drupal/gin_toolbar": "^1.0@beta",
         "drupal/gutenberg": "2.x-dev",
         "drupal/link_attributes": "^1.11",
+        "drupal/linked_entity_reference": "^1.0@alpha",
         "drupal/mediteran": "^1.12",
         "drupal/olivero": "^1.0@beta",
         "drupal/optional_end_date": "^1.1",
