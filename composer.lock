@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74ab603b81e622b094714df86634a5d9",
+    "content-hash": "0dbd621c12d753674ea439888bb919f7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4797,17 +4797,17 @@
         },
         {
             "name": "drupal/views_bootstrap",
-            "version": "4.3.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_bootstrap.git",
-                "reference": "8.x-4.3"
+                "reference": "8.x-3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_bootstrap-8.x-4.3.zip",
-                "reference": "8.x-4.3",
-                "shasum": "8eebf7b7e95e9a56cce96c4ae11944c5d5852b46"
+                "url": "https://ftp.drupal.org/files/projects/views_bootstrap-8.x-3.4.zip",
+                "reference": "8.x-3.4",
+                "shasum": "0f1cdeaded28635eca48e415e72bc1a7653e8574"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -4815,8 +4815,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-4.3",
-                    "datestamp": "1590086605",
+                    "version": "8.x-3.4",
+                    "datestamp": "1603898717",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4829,30 +4829,99 @@
             ],
             "authors": [
                 {
-                    "name": "aburrows",
-                    "homepage": "https://www.drupal.org/user/577844"
+                    "name": "Dmitry Demenchuk",
+                    "homepage": "https://www.drupal.org/u/mrded",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "ericpugh",
-                    "homepage": "https://www.drupal.org/user/130084"
+                    "name": "Alex Burrows",
+                    "homepage": "https://www.drupal.org/u/aburrows",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "ikeigenwijs",
-                    "homepage": "https://www.drupal.org/user/583238"
+                    "name": "Eric Pugh",
+                    "homepage": "https://www.drupal.org/u/ericpugh",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "mrded",
-                    "homepage": "https://www.drupal.org/user/556088"
+                    "name": "Bart Verheyde",
+                    "homepage": "https://www.drupal.org/u/ikeigenwijs",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "shelane",
-                    "homepage": "https://www.drupal.org/user/2674989"
+                    "name": "Shelane French",
+                    "homepage": "https://www.drupal.org/u/shelane",
+                    "role": "Maintainer"
                 }
             ],
-            "description": "Allows for different styles to be used in views to work with Bootstrap 4 components.",
+            "description": "Integrate the Bootstrap framework with Views.",
             "homepage": "https://www.drupal.org/project/views_bootstrap",
             "support": {
-                "source": "https://git.drupalcode.org/project/views_bootstrap"
+                "source": "https://git.drupalcode.org/project/views_bootstrap",
+                "issues": "https://www.drupal.org/project/issues/views_bootstrap"
+            }
+        },
+        {
+            "name": "drupal/views_slideshow",
+            "version": "4.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_slideshow.git",
+                "reference": "8.x-4.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_slideshow-8.x-4.8.zip",
+                "reference": "8.x-4.8",
+                "shasum": "88104843df5e2eaa7e70b796a80573d844583e42"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-4.8",
+                    "datestamp": "1601309225",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "NickDickinsonWilde",
+                    "homepage": "https://www.drupal.org/user/3094661"
+                },
+                {
+                    "name": "aaron",
+                    "homepage": "https://www.drupal.org/user/33420"
+                },
+                {
+                    "name": "redndahead",
+                    "homepage": "https://www.drupal.org/user/160320"
+                },
+                {
+                    "name": "vbouchet",
+                    "homepage": "https://www.drupal.org/user/1671428"
+                }
+            ],
+            "description": "Describes relationships between entities.",
+            "homepage": "https://www.drupal.org/project/views_slideshow",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_slideshow",
+                "issues": "https://www.drupal.org/project/issues/views_slideshow",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
