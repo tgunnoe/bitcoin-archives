@@ -48,8 +48,11 @@ a.button {
 .background-image-block__section {
     padding: 30px 0;
 }
+.site-branding__logo {
+    line-height: 80px;
+}
 .site-branding__logo > img {
-    max-height: 60px;
+    max-height: 80px;
 }
 .node--type-article.node--view-mode-teaser .field--name-user img {
     max-width: 40px;
@@ -116,6 +119,10 @@ ul.menu li a h6 {
     text-shadow: 1px 1px 2px black;
     font-weight: bold;
 }
+.banner h1.page-title {
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
 @media (max-width: 767px) {
     .banner .field--name-field-subtitle {
 	display:none;
@@ -175,7 +182,7 @@ ul.menu li a h6 {
 .header .menu-item a,
 .header-container ul.menu li a,
 #block-mtdropdown button.dropdown-trigger i.fa {
-    line-height: 60px;
+    line-height: 80px;
     padding-top:0;
     padding-bottom:0;
 }
@@ -215,3 +222,30 @@ ul.menu li a h6 {
 .header-container .region--light-typography ul.menu li a.is-active {
     color: #ECA34D;
 } 
+.scroll-button.smooth-scroll {
+    margin-top: 100px;
+}
+.media--view-mode-full-width-carousel img {
+    width: 100%;
+}
+.media--view-mode-full-width-carousel::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+}
+.carousel-caption h3 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+.carousel-caption {
+    top: 0;
+    bottom: 0;
+}

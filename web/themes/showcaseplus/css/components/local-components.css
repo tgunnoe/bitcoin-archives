@@ -21,3 +21,13 @@
     line-height: 0;
 
 }
+.field--name-node-post-date .field__label {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+blockquote {
+    font-size: 24px;
+}
+.wp-block-pullquote p {
+    font-size: 1.2em;
+}
