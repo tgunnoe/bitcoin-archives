@@ -25,6 +25,10 @@
 a.button {
     text-decoration: none;
 }
+.region--light-typography a.button:hover {
+    background-color: #ECA34D;
+    border-color: #ECA34D;
+}
 
 .view-id-sponsors .node__header {
     display: none;
@@ -246,6 +250,5 @@ ul.menu li a h6 {
     line-height: 1.2;
 }
 .carousel-caption {
-    top: 0;
     bottom: 0;
 }
