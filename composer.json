@@ -48,6 +48,7 @@
         "drupal/link_attributes": "^1.11",
         "drupal/linked_entity_reference": "^1.0@alpha",
         "drupal/mediteran": "^1.12",
+        "drupal/newslettersignup": "^3.1",
         "drupal/olivero": "^1.0@beta",
         "drupal/optional_end_date": "^1.1",
         "drupal/page_manager": "^4.0@beta",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dbd621c12d753674ea439888bb919f7",
+    "content-hash": "7607f35caf1dd4debe484a4b0047a4f9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4020,6 +4020,50 @@
             "homepage": "https://www.drupal.org/project/mediteran",
             "support": {
                 "source": "https://git.drupalcode.org/project/mediteran"
+            }
+        },
+        {
+            "name": "drupal/newslettersignup",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/newslettersignup.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/newslettersignup-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "8b83419aacd45f3098a0fdd8d7bcc3457056a3c5"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1593420074",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gaurav.Kumar",
+                    "homepage": "https://www.drupal.org/user/928828"
+                }
+            ],
+            "description": "A simple newsletter signup form",
+            "homepage": "https://www.drupal.org/project/newslettersignup",
+            "support": {
+                "source": "https://git.drupalcode.org/project/newslettersignup"
             }
         },
         {
