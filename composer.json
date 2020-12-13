@@ -47,6 +47,7 @@
         "drupal/gutenberg": "2.x-dev",
         "drupal/link_attributes": "^1.11",
         "drupal/linked_entity_reference": "^1.0@alpha",
+        "drupal/media_parent_entity_link": "^1.0@beta",
         "drupal/mediteran": "^1.12",
         "drupal/newslettersignup": "^3.1",
         "drupal/olivero": "^1.0@beta",
