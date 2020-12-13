@@ -292,3 +292,8 @@ blockquote::before {
     left: 0;
     display:none;
 }
+.view-articles-grid.view-people2 .node--type-article,
+.view-articles-grid.view-people2 .node--type-person
+{
+    text-align: left;
+}
