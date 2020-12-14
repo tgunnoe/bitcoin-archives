@@ -45,6 +45,7 @@
         "drupal/gin_login": "^1.0@RC",
         "drupal/gin_toolbar": "^1.0@beta",
         "drupal/gutenberg": "2.x-dev",
+        "drupal/honeypot": "^2.0",
         "drupal/link_attributes": "^1.11",
         "drupal/linked_entity_reference": "^1.0@alpha",
         "drupal/media_parent_entity_link": "^1.0@beta",
