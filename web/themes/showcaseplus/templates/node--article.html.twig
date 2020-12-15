@@ -14,9 +14,7 @@
     </h2>
   {% endif %}
   {{ title_suffix }}
-  {% if display_submitted %}
-    {{ author_picture }}
-  {% endif %}
+
   {% if display_submitted or node.comment or (view_mode == "full" and mt_setting.reading_time) %}
     <div class="node__meta">
        <ul class="inline-list">
@@ -24,10 +22,10 @@
             <li class="inline-list__item">
               {% if display_submitted %}
                 <span{{ author_attributes.addClass('node__submitted-info') }}>
-                  <span class="node__submitted-date">
+		  {% trans %}<span class="node__submitted-info-text">Submitted Date:</span>{% endtrans %}
+		  <span class="node__submitted-date">
                     {{ node.createdtime|format_date('custom', 'F d, Y') }}
                   </span>
-                  {% trans %}<span class="node__submitted-info-text">By</span> {{ author_name }}{% endtrans %}
                 </span>
                 {{ metadata }}
               {% endif %}
