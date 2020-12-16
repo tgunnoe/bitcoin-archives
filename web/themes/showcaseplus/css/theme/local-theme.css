@@ -57,7 +57,7 @@ a.button:hover {
     line-height: 80px;
 }
 .site-branding__logo > img {
-    max-height: 80px;
+    max-height: 35px;
 }
 .node--type-article.node--view-mode-teaser .field--name-user img {
     max-width: 40px;
@@ -149,6 +149,9 @@ ul.menu li a h6 {
 
 .social-links i::before {
 
+}
+#block-sociallinks h2.title {
+    font-weight: 600;
 }
 .scroll-button.smooth-scroll {
     margin-top: 100px;

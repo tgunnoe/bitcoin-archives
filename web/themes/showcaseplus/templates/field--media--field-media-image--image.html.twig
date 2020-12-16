@@ -52,9 +52,7 @@
   ]
 %}
 {{ attach_library('showcaseplus/node-images') }}
-{% if view_mode == "full" %}
-  {{ attach_library('showcaseplus/magnific-popup-field-image-init') }}
-{% endif %}
+{{ attach_library('showcaseplus/magnific-popup-field-image-init') }}
 {% if label_hidden %}
   {% if multiple %}
     <div{{ attributes.addClass(classes, 'field__items') }}>

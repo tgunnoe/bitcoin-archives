@@ -8,7 +8,8 @@
     font-weight: bold;
 }
 .social-links a .fa::before {
-    font-size: 32px;
+    letter-spacing: 0;
+    font-size: 42px;
 }
 .social-links li a .fa span {
     display: none;
